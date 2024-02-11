@@ -1,16 +1,67 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Navbar and Images</title>
+    <style>
+        /* Example styles for navbar */
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <h2>Example Images</h2>
+    
+    <!-- Semantic image usage -->
+    <figure>
+        <img src="https://picsum.photos/id/123/200/300" alt="Placeholder Image 1">
+        <figcaption>Caption for Image 1</figcaption>
+    </figure>
+    
+    <figure>
+        <img src="https://picsum.photos/id/124/200/300" alt="Placeholder Image 2">
+        <figcaption>Caption for Image 2</figcaption>
+    </figure>
+    
+    <!-- Non-semantic image usage -->
+    <img src="https://picsum.photos/id/125/200/300" alt="Placeholder Image 3">
+    
+    <!-- Non-semantic image usage with caption -->
+    <div>
+        <img src="https://picsum.photos/id/125/200/300" alt="Placeholder Image 4">
+        <p>Caption for Image 4</p>
+    </div>
 </body>
-
 </html>
